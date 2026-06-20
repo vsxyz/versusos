@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "pairs": [
+    {
+      "chainId": "ethereum",
+      "dexId": "uniswap",
+      "labels": ["v3"],
+      "pairAddress": "0x3416cF6C708Da44DB2624D63ea0AAef7113527C6",
+      "baseToken": {"address": "0xA0b86991c6218b36C1D19D4a2e9Eb0cE3606eB48", "name": "USD Coin", "symbol": "USDC"},
+      "quoteToken": {"address": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "name": "Tether USD", "symbol": "USDT"},
+      "priceNative": "1.0004972",
+      "priceUsd": "1.00049",
+      "volume": {"h24": 12623670.66, "h6": 2007739.84},
+      "priceChange": {"h6": 0.01, "h24": 0.03},
+      "liquidity": {"usd": 19735677.8, "base": 3008666, "quote": 16725515},
+      "pairCreatedAt": 1636825557000
+    },
+    {
+      "chainId": "ethereum",
+      "dexId": "uniswap",
+      "labels": ["v3"],
+      "pairAddress": "0xAAAA000000000000000000000000000000000001",
+      "baseToken": {"address": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "name": "Tether USD", "symbol": "USDT"},
+      "quoteToken": {"address": "0x6B175474E89094C44Da98b954EedeAC495271d0F", "name": "Dai", "symbol": "DAI"},
+      "priceNative": "0.999",
+      "priceUsd": "0.9991",
+      "volume": {"h24": 100000.0},
+      "priceChange": {"h24": -0.01},
+      "liquidity": {"usd": 5000000.0, "base": 2500000, "quote": 2502500},
+      "pairCreatedAt": 1636825557000
+    }
+  ]
+}

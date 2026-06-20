@@ -1,0 +1,7 @@
+{
+  "_doc": "Options for the inspect skill (inductive token-CA lookup). covered_chains is the EVM chain allowlist inspect reports on (mirror collect-dex). naming_enabled toggles the out-of-coverage Dexscreener token-naming call (naming.py). top_picks/table are the presentation counts reused from recommend.",
+  "covered_chains": ["ethereum", "base", "arbitrum", "optimism", "polygon", "avalanche", "bsc"],
+  "naming_enabled": true,
+  "top_picks": 3,
+  "table": 10
+}

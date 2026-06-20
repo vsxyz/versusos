@@ -1,0 +1,5 @@
+{
+  "_doc": "Options for the research-audit skill. top_n caps how many protocols (highest TVL first) get LLM audit research per run (default 50 covers ~95% of universe TVL). ttl_days marks a cached verdict stale after this many days (audits change slowly). Coverage is intentionally partial; protocols below the cut are reported, never researched.",
+  "top_n": 50,
+  "ttl_days": 7
+}

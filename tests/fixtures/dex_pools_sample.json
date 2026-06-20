@@ -1,0 +1,74 @@
+{
+  "source": "coinmarketcap-dex+dexscreener",
+  "fetched_at": "2026-06-10T00:00:00Z",
+  "history_window_days": 180,
+  "counts": {"requested_pools": 4, "snapshot_ok": 4},
+  "stablecoins": [
+    {
+      "symbol": "USDC",
+      "pools": [
+        {
+          "chain": "ethereum",
+          "dex": "uniswap-v3",
+          "pool_address": "0x1111111111111111111111111111111111111111",
+          "token_address": "0xusdc",
+          "gecko_network": "eth",
+          "snapshot": {
+            "price_usd": 1.0004,
+            "liquidity_usd": 19735677.8,
+            "counterparty": {"symbol": "USDT", "address": "0xusdt"},
+            "volume_h24": 12623670.66
+          },
+          "flags": {"snapshot_missing": false, "history_selected": true}
+        },
+        {
+          "chain": "ethereum",
+          "dex": "curve",
+          "pool_address": "0xpool-usdc-eth-2",
+          "token_address": "0xusdc",
+          "gecko_network": "eth",
+          "snapshot": {
+            "price_usd": 0.9998,
+            "liquidity_usd": 8200000.0,
+            "counterparty": {"symbol": "DAI", "address": "0xdai"},
+            "volume_h24": 3100000.0
+          },
+          "flags": {"snapshot_missing": false, "history_selected": false}
+        },
+        {
+          "chain": "base",
+          "dex": "aerodrome",
+          "pool_address": "0xpool-usdc-base-1",
+          "token_address": "0xusdc-base",
+          "gecko_network": "base",
+          "snapshot": {
+            "price_usd": 1.0001,
+            "liquidity_usd": 4400000.0,
+            "counterparty": {"symbol": "USDT", "address": "0xusdt-base"},
+            "volume_h24": 950000.0
+          },
+          "flags": {"snapshot_missing": false, "history_selected": false}
+        }
+      ]
+    },
+    {
+      "symbol": "USDT",
+      "pools": [
+        {
+          "chain": "ethereum",
+          "dex": "uniswap-v3",
+          "pool_address": "0xpool-usdt-eth-1",
+          "token_address": "0xusdt",
+          "gecko_network": "eth",
+          "snapshot": {
+            "price_usd": 1.0002,
+            "liquidity_usd": 15000000.0,
+            "counterparty": {"symbol": "USDC", "address": "0xusdc"},
+            "volume_h24": 9000000.0
+          },
+          "flags": {"snapshot_missing": false, "history_selected": false}
+        }
+      ]
+    }
+  ]
+}

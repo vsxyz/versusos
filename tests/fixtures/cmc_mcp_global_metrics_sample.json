@@ -1,0 +1,10 @@
+{
+  "last_updated": "11 June 2026 12:00 AM UTC+0",
+  "sentiment": {
+    "fear_greed": {
+      "definition": "0-100 sentiment score.",
+      "current": { "value": "Extreme fear", "index": 15 },
+      "history": { "yesterday": { "value": "Extreme fear", "index": 14 } }
+    }
+  }
+}

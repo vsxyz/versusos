@@ -1,0 +1,7 @@
+{
+  "headers": ["id", "name", "symbol", "slug", "rank"],
+  "rows": [
+    [3408, "USDC", "USDC", "usd-coin", 5],
+    [9999, "Bridged USDC", "USDC.E", "bridged-usdc", 200]
+  ]
+}

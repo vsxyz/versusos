@@ -1,0 +1,8 @@
+{
+  "headers": ["title", "description", "content", "url", "publishedAt", "quality"],
+  "rows": [
+    ["USDC reserves attested", "Monthly attestation published.", "Full text…", "https://example.com/usdc-attestation", "11 June 2026 12:43 AM UTC+0", "8.0"],
+    ["Stablecoin bill advances", "Committee vote passed.", "Full text…", "https://example.com/stablecoin-bill", "10 June 2026 09:00 PM UTC+0", "7.5"],
+    ["No-link item", "Should be dropped.", "Full text…", "", "10 June 2026 08:00 PM UTC+0", "6.0"]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "_doc": "Options for the opt-in collect-depeg-history collector. top_n: how many top-ranked vaults (from score's vault_scores.json) to deep-collect history for. throttle_seconds: pause before EVERY GeckoTerminal call (daily and minute alike), so a pool's two calls never burst. GeckoTerminal's keyless limit is 30 calls/min (raised from 10 on 2023-04-19); 6.0s = ~10/min, a third of the limit, so even a recent overlapping run stays well under 30/min and 429s are avoided. history_days: daily (depeg) window; minute_window_hours: minute (dynamic) window. This skill is run only on explicit user approval (see SKILL.md).",
+  "top_n": 10,
+  "throttle_seconds": 6.0,
+  "history_days": 180,
+  "minute_window_hours": 12
+}

@@ -1,0 +1,21 @@
+# ruff.toml — development-only lint/format config for VersusOS plugin scripts.
+#
+# ruff is a DEV tool: it is never imported by any skill, so the plugin runtime
+# stays standard-library-only. Run from the repo root:
+#     ruff check skills/          # lint (import order, unused, syntax)
+#     ruff check --fix skills/    # apply safe fixes
+#     ruff format skills/         # opt-in whitespace normalization (large diff)
+#
+# line-length matches the codebase's existing ~100-col wrap so `ruff format`
+# reflows as little as possible.
+line-length = 100
+target-version = "py310"
+
+[lint]
+# Conservative, already-passing rule set: pyflakes (F), import order (I),
+# the safe pycodestyle subsets, and warnings (W). Intentionally excludes E501
+# (line-too-long) so pre-existing long lines are not flagged as noise.
+select = ["E4", "E7", "E9", "F", "I", "W"]
+
+[format]
+quote-style = "double"

@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-06-13T00:00:00Z",
+  "config": {"top_n": 2, "ttl_days": 7},
+  "selected": ["morpho-blue", "comb-financial"],
+  "skipped_below_floor": ["tiny-proto"],
+  "worklist": [
+    {"slug": "morpho-blue", "tvl_usd": 3500000000, "audits_triage": 2,
+     "track": "grade", "audit_links": ["https://docs/morpho-blue"]},
+    {"slug": "comb-financial", "tvl_usd": 1000000, "audits_triage": 0,
+     "track": "verify", "audit_links": []}
+  ],
+  "coverage_preview": {"projects_total": 3, "selected": 2, "tvl_covered_pct": 100.0}
+}

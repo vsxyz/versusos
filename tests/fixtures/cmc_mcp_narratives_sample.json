@@ -1,0 +1,9 @@
+{
+  "categoryList": {
+    "headers": ["trendingRank", "slug", "categoryCmcUrl", "categoryName", "marketCapUsd", "socialKeywords"],
+    "rows": [
+      [1, "rwa", "https://coinmarketcap.com/view/rwa", "Real World Assets", "55.1 B", ["RWA"]],
+      [2, "stablecoins", "https://coinmarketcap.com/view/stablecoins", "Stablecoins", "310.2 B", ["USDC", "USDT"]]
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source": "defillama_yields",
+  "fetched_at": "2026-06-16T00:00:00Z",
+  "counts": {"fetched": 3, "after_filter": 3},
+  "vaults": [
+    {"pool": "v1", "project": "aave-v3", "chain": "Ethereum", "symbol": "USDC", "tvlUsd": 25000000, "apy": 6.4, "stablecoin": true, "underlyingTokens": ["0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"]},
+    {"pool": "v2", "project": "makerdao", "chain": "Ethereum", "symbol": "DAI", "tvlUsd": 10000000, "apy": 5.0, "stablecoin": true, "underlyingTokens": ["0x6b175474e89094c44da98b954eedeac495271d0f"]},
+    {"pool": "v3", "project": "curve", "chain": "Ethereum", "symbol": "CRVUSD", "tvlUsd": 5000000, "apy": 4.2, "stablecoin": true, "underlyingTokens": ["0xf939e0a03fb07f59a73314e73794be0e57ac1b4e"]}
+  ]
+}

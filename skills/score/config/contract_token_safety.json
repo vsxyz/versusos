@@ -1,0 +1,2570 @@
+{
+  "_doc": "Static per-vault Contract & Token Safety mapping. by_pool maps a vault's DeFiLlama pool id -> {\"points\": Audit Score 0-15, \"protocol_audit\": Protocol Score 0-10, \"token_audit\": Vault Score 0-5}, where points == protocol_audit + token_audit. Only points enters safety_score; the subfields ride along for transparency. An absent/empty entry scores 0. This file is the source of record for the per-vault audit scores. research-audit does NOT feed this factor (advisory-only in recommend).",
+  "by_pool": {
+    "d118f505-e75f-4152-bad3-49a2dc7482bf": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "125974d5-ad17-4a3a-b967-ebbf721fca22": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "f0df03c4-a46f-4f41-be89-37226c814918": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "76ffb695-7fcf-418c-a368-4a9a2dc76f70": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "21e1ac8a-b3aa-4576-9506-0b40137721a0": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "41683a7c-20a2-4cd7-83a7-3ccedaad0db1": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "42eaf290-24c3-4ce0-82ab-c1276444871b": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "76b70b33-d8a4-4e61-8092-9bd1f2be2fc9": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "7b13e8df-9e04-4920-a711-6aeef16f9f7c": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "29932dea-cd71-44c3-95bd-3e1525f4e3dd": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "6cf9108a-4832-4681-95d7-757d51d3b24a": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "a4e37545-203b-4412-9acd-3e8b1aa4d744": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "bf0660ab-38bf-48a4-9a6c-393ec0e2ff5f": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "83fca810-ec67-401d-831a-2d0ae8e596c9": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "19d024ed-9c70-4323-9a81-fe873ea5f0e0": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "461505e0-e631-4af0-b0e9-6a861d917939": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "85fc6934-c94d-4ebe-9c60-66beb363669f": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "baee0253-eb6e-4a08-a579-a2acd4f034b2": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "98d07333-f5e4-4a48-8061-cfb4b73ccf79": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "5c994437-94bf-4c96-a4c1-5b8ae446dfd0": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "ff2a68af-030c-4697-b0a1-b62a738eaef0": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "44da6781-e5d3-4b77-8171-e55571a8cc22": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "411707d7-0293-4ad3-982d-72125e1f5de7": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "86e18974-35ca-4948-9c82-694facf9d082": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "66985a81-9c51-46ca-9977-42b4fe7bc6df": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "fa55aa2b-e244-4ce4-ab00-9e96b39df32b": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "1e2030e0-0b74-4119-a03d-0f6a126ede33": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "e150c112-d6f3-42f5-8c8d-78580058e1fd": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "4d48ed69-2a14-4609-91c0-bc129a6dc586": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "42523cca-14b0-44f6-95fb-4781069520a5": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "55de30c3-bf9f-4d4e-9e0b-536a8ef5ab35": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "cc0e4862-04d0-409a-8d79-7f582e7b8b7a": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "e17d2238-b264-4cc3-a1df-d090f6ba4194": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "4decb8fb-be56-48ce-9c61-47a554d248e8": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "eaece65e-ffb2-4631-a95e-7f267cb2f1ba": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "cfced7e4-e041-445b-845e-afde335e3a35": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "44f4d357-a29d-4990-a64a-a8452be2d884": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "d1f82472-32fd-4061-bcb2-f4764d4a2441": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "0cdd7f84-711e-4cd4-916d-da318857559a": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "d6fec854-4258-495b-95df-e4066214f41d": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "94a140b4-f09f-4403-a4c1-0791c99e1492": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "54d5ccee-2d2a-4e84-90f1-765c71d8a72d": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "2d3b68a8-33d3-47e0-a4c0-0bafef4b01d5": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "9f90f830-d381-461d-984f-9cf909ce906f": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "9b0c3b21-d47b-4b0c-855d-d1b78cd35350": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "c0921c0f-51aa-45b8-87e3-5eec59a6972b": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "ac61ee82-2fe4-4f9b-a9cd-7fb33f598859": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "a66e2d12-188b-407d-aaec-d95640e08ef7": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "1f8a60c7-e307-42cd-844c-18dec84f5137": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "00b83068-9f87-4411-b5d7-5d2ff48c40c4": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "b5d7a190-38d2-4fdd-8c14-1fd00c11bce1": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "3007b64e-331d-425d-a7ae-33b8691da1a9": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "0d635c7d-0a5f-4d6d-9e3e-1245442b9727": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "509c3a20-3e95-42d5-8835-c4b74beb1baf": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "1767cdec-8dad-4b8c-a61c-fa10ab4d3f92": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "55b0893b-1dbb-47fd-9912-5e439cd3d511": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "7a854602-ab25-4772-9842-ba0d2a4def03": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "d8e9bb79-79d3-4897-8a4f-8d489040097d": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "ffeb6000-119e-4950-9875-fa90d0d8e373": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "3bbbd1b5-3dc7-4bbf-8b7d-e229e8f8f05c": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "7787a361-56b0-494a-874d-a88b4da6d5e2": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "1bf184d6-57bf-4e96-8831-b65fb9064d38": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "0f185c65-9d48-48d2-85ab-7728314988e6": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "437a4c66-b5a7-416b-853a-565433679627": {
+      "points": 15,
+      "protocol_audit": 10,
+      "token_audit": 5
+    },
+    "3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac": {
+      "points": 14.85,
+      "protocol_audit": 10,
+      "token_audit": 4.85
+    },
+    "a8e3d841-2788-4647-ad54-5a36fac451b1": {
+      "points": 14.85,
+      "protocol_audit": 10,
+      "token_audit": 4.85
+    },
+    "cc110152-36c2-4e10-9c12-c5b4eb662143": {
+      "points": 14.85,
+      "protocol_audit": 10,
+      "token_audit": 4.85
+    },
+    "7f81b151-a769-45d3-ae54-ef378633f035": {
+      "points": 14.85,
+      "protocol_audit": 10,
+      "token_audit": 4.85
+    },
+    "3fbb0e46-2efe-47cc-acbe-5c892fa56845": {
+      "points": 14.85,
+      "protocol_audit": 10,
+      "token_audit": 4.85
+    },
+    "e6692d08-85b6-4b50-952b-7c5c531862fe": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "e338c687-a5d8-4abf-bc04-127990811b0a": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "47da0cdd-7b1d-4927-9545-20b53b73afa8": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "7e7821a2-3d20-4ae7-9c3d-04cd57904555": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "f981a304-bb6c-45b8-b0c5-fd2f515ad23a": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "a90d554a-b548-4f50-b03e-9dcb724b7777": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "29be6a85-414f-4a66-b075-98863278912a": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "517f3a7a-a3b0-4af9-be8e-bcb0fb549744": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "57647093-2868-4e65-97ab-9cae8ec74e7d": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "f4d5b566-e815-4ca2-bb07-7bcd8bc797f1": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "85247b13-8180-44e7-b38c-4d324cc68a92": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "93b667e0-edbc-4264-984d-8b078a2fd9b9": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "3b1f03a6-ec39-43b1-9432-dbc14a4cfdf0": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "546b3c0c-138d-4190-b46b-efa1765f1dd3": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "80a280c8-8225-4232-a2a6-70e6606acd84": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "3b24b57f-0be8-4e4a-a6d6-a69d3cbd87fc": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "8b4267ba-69b2-49c9-9a82-df98e24e1f0f": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "1449c7a7-a915-4a42-94f4-4c93c851f0aa": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "5e953c59-150a-4e1a-a117-3db74c7c8591": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "8edfdf02-cdbb-43f7-bca6-954e5fe56813": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "9f3a6015-5045-4471-ba65-ad3dc7c38269": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "f45554c1-21be-4d8d-a974-d23c3ad47624": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "daf810d4-b190-4d9a-a5c6-f784d6272a77": {
+      "points": 14.5,
+      "protocol_audit": 10,
+      "token_audit": 4.5
+    },
+    "c4d22a9b-a5e3-414e-92d9-76493e1ab239": {
+      "points": 14.2,
+      "protocol_audit": 9.2,
+      "token_audit": 5
+    },
+    "529258ee-9b27-4fcf-a32c-b82abb3fda68": {
+      "points": 14.1,
+      "protocol_audit": 9.4,
+      "token_audit": 4.7
+    },
+    "32cb38a5-b9b9-441a-bf07-8fab47b999d3": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "7e0661bf-8cf3-45e6-9424-31916d4c7b84": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "c4b05318-88af-4536-a834-f5fc8940d2d3": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "aa70268e-4b52-42bf-a116-608b370f9501": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "6f00d46b-8735-49ae-9ced-2a0fccc56ad0": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "1b8b4cdb-0728-42a8-bf13-2c8fea7427ee": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "0758c3b8-4ffb-4176-b0a9-f446e367db46": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "d9fa8e14-0447-4207-9ae8-7810199dfa1f": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "27296bf9-617a-46e4-9d6d-eefc71e9e0b6": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "15cf7c05-b5f0-4bde-8745-a791528c4381": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "effcb4a4-4dcb-45e5-935d-f15542c13e6b": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "cb6139f9-4a68-4efd-8245-0312a92aee55": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "e259a7bc-d2b0-41e5-b12d-a3c7b984560c": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "325645ce-4e97-49cb-a8e8-d0100c3aea7b": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "80359eae-ff65-4fa6-842d-c971dc2928de": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "82469f6f-951d-4578-b47e-fb4df326f059": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "5341535f-29c6-4699-af99-15170bb3dfe4": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "61813eeb-ed26-44ee-bb0b-059f0faa1dcf": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "b7ce5baf-7d76-46f7-8a7b-28b7e72ed2b7": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "112f7929-e3ee-487e-a322-c7c8003b312c": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "1dee4660-d688-4800-8e0f-7af0d77bcde1": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "cefa9bb8-c230-459a-a855-3b94e96acd8c": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "7da72d09-56ca-4ec5-a45f-59114353e487": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "d9c395b9-00d0-4426-a6b3-572a6dd68e54": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "bca9d351-b928-4aeb-9d7d-c8a5406b8a7a": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "d0e11625-79b9-40e3-b01f-a473af961995": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "20e45c3e-7de7-4d34-89e7-20858ecdf252": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "d711af54-e736-470f-8a22-431a23de76df": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "31a0cd94-b781-4e0d-a9f1-1702bc2c238f": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "0fde8996-ecdf-441c-94a9-ec67403e9b8c": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "7149d3d6-daab-4577-98c4-1ad7703a5bb2": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "73e933a7-73b2-43ec-b1e9-d5d1d42ce2de": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "fd218e64-f5d4-495f-a943-7a120a33e281": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "ca537616-5cc3-429a-aded-ebe307121d1f": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "3cb152e8-1de7-4a2b-8510-f04014c5fe82": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "62649c90-e61a-4ffc-ba31-3d754b7461fc": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "d2141a59-c199-4be7-8d4b-c8223954836b": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "be594f62-06b5-4545-b062-8c8c08c4c0d2": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "005bdeab-17c3-4561-961d-fef74f4ca6f9": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "43641cf5-a92e-416b-bce9-27113d3c0db6": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "82c8eda4-f27b-4e41-851d-4368af5e4866": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "89eba1e5-1b1b-47b6-958b-38138a04c244": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "90cb9575-6a55-4900-9536-ead80c7dfa6c": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "ea721c71-9a61-481d-aa52-b0198f325c66": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "d5959f91-86ce-4177-b234-49e1f17d8f82": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "6dc5652b-c1f0-4871-ac8e-bff2eaddac2a": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "05a3d186-2d42-4e21-b1f0-68c079d22677": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "7d89af7a-24c9-4292-aa38-7c71b05fbd6d": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "1994cc35-a2b9-434e-b197-df6742fb5d81": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "58226309-3608-4c9d-bf4d-62d1c637bee9": {
+      "points": 14,
+      "protocol_audit": 10,
+      "token_audit": 4
+    },
+    "44a8967e-00f1-4cde-8c25-823f36953021": {
+      "points": 13.9,
+      "protocol_audit": 9.4,
+      "token_audit": 4.5
+    },
+    "655edf24-3235-4fe3-a06a-f3bf8b259bc5": {
+      "points": 13.9,
+      "protocol_audit": 9.4,
+      "token_audit": 4.5
+    },
+    "a116d53b-69ab-4665-a7c1-6813b3ebb728": {
+      "points": 13.9,
+      "protocol_audit": 9.4,
+      "token_audit": 4.5
+    },
+    "08ab92f4-a0e0-4660-9349-54596b224ebe": {
+      "points": 13.9,
+      "protocol_audit": 9.4,
+      "token_audit": 4.5
+    },
+    "6679b470-7a53-4b96-88c8-262ea927b4b5": {
+      "points": 13.85,
+      "protocol_audit": 10,
+      "token_audit": 3.85
+    },
+    "e65588a1-27ad-4e20-9232-68a6cfaccf63": {
+      "points": 13.7,
+      "protocol_audit": 10,
+      "token_audit": 3.7
+    },
+    "32f04d80-25f9-439f-838d-3b15becf2d21": {
+      "points": 13.7,
+      "protocol_audit": 10,
+      "token_audit": 3.7
+    },
+    "ff1bb959-d160-4906-bad2-d3e37a1e92e8": {
+      "points": 13.7,
+      "protocol_audit": 10,
+      "token_audit": 3.7
+    },
+    "09ebba8e-69df-4127-a319-c15154064edb": {
+      "points": 13.7,
+      "protocol_audit": 9.7,
+      "token_audit": 4
+    },
+    "a2fbc7ec-22c2-43fe-aa42-49f854aa940d": {
+      "points": 13.7,
+      "protocol_audit": 9.2,
+      "token_audit": 4.5
+    },
+    "fa36ea14-cfb0-4f04-853f-366b22f0d887": {
+      "points": 13.7,
+      "protocol_audit": 10,
+      "token_audit": 3.7
+    },
+    "9469cde6-65d8-4bbb-ade6-8a89f1728403": {
+      "points": 13.7,
+      "protocol_audit": 10,
+      "token_audit": 3.7
+    },
+    "bc861b66-6c05-412f-9540-6ead2b7fb6c7": {
+      "points": 13.7,
+      "protocol_audit": 10,
+      "token_audit": 3.7
+    },
+    "8213e3be-df9f-4711-879a-62efc4cc615a": {
+      "points": 13.7,
+      "protocol_audit": 10,
+      "token_audit": 3.7
+    },
+    "79f3a3df-1ee9-46e4-9ee1-2d4609bf3349": {
+      "points": 13.7,
+      "protocol_audit": 10,
+      "token_audit": 3.7
+    },
+    "e5dd93e0-0104-413a-8ee3-16b416111dd2": {
+      "points": 13.7,
+      "protocol_audit": 10,
+      "token_audit": 3.7
+    },
+    "3033d94b-dcaf-4a0b-a9dd-a92998c74d5e": {
+      "points": 13.7,
+      "protocol_audit": 10,
+      "token_audit": 3.7
+    },
+    "7501ef09-87d1-405c-b2b2-f269b2727289": {
+      "points": 13.7,
+      "protocol_audit": 10,
+      "token_audit": 3.7
+    },
+    "1daad8ac-d79a-491d-b972-e57bf98991b5": {
+      "points": 13.5,
+      "protocol_audit": 9,
+      "token_audit": 4.5
+    },
+    "c89af47f-032a-4c59-bdc9-17a7f1514a3b": {
+      "points": 13.4,
+      "protocol_audit": 9.4,
+      "token_audit": 4
+    },
+    "51a44bca-7228-4138-a61f-fab53b7ef4c2": {
+      "points": 13.4,
+      "protocol_audit": 9.4,
+      "token_audit": 4
+    },
+    "45ecff73-d1b5-412f-ae15-c409034cc14c": {
+      "points": 13.2,
+      "protocol_audit": 9.2,
+      "token_audit": 4
+    },
+    "2f6ff86c-3d82-4cd9-8e7d-bc3eb3471493": {
+      "points": 13.2,
+      "protocol_audit": 9.2,
+      "token_audit": 4
+    },
+    "d783c8df-e2ed-44b4-8317-161ccc1b5f06": {
+      "points": 13.2,
+      "protocol_audit": 9.2,
+      "token_audit": 4
+    },
+    "0dbb5021-00c7-40e2-9e2b-a757f4305ebf": {
+      "points": 13.2,
+      "protocol_audit": 9.2,
+      "token_audit": 4
+    },
+    "a4236681-173c-4a52-97d2-30c61f07141b": {
+      "points": 13.2,
+      "protocol_audit": 10,
+      "token_audit": 3.2
+    },
+    "2b7f6b6d-39fd-4bbe-ab37-d0e56615dde0": {
+      "points": 13,
+      "protocol_audit": 9,
+      "token_audit": 4
+    },
+    "5111943b-f0cd-4de3-b69f-bd1208de25d6": {
+      "points": 13,
+      "protocol_audit": 9,
+      "token_audit": 4
+    },
+    "0f67a08c-3f24-4a4b-963e-541f5a5c0364": {
+      "points": 13,
+      "protocol_audit": 9,
+      "token_audit": 4
+    },
+    "bb6eac99-e375-4643-84c3-5d368538694d": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "03c560bf-aed6-4a52-85b9-cb627269f3ff": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "32d486e0-2617-4e1d-93fb-706a72913121": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "79197779-01a2-4e36-b49c-c26eb427c991": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "56e4307a-66f7-4757-a908-fe4181112bf9": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "bf346d43-ef94-4277-b159-ebadb93caef1": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "92a97f48-005e-4819-a838-f442ea92c401": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "832c94db-4948-4f14-aa65-af6e737d984e": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "a8377123-ab6a-4df7-b873-8490a47e2881": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "b723687e-6627-4b9e-a7af-1dd1f9933b9f": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "38996a70-76e3-4e7c-a00f-22182d73b2be": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "05c5acfb-eb6c-40bd-865c-2015c017e953": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "0b033747-3a22-486b-a600-9958b878bef7": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "32ab021e-6faa-46e2-b609-f15f34d25b09": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "772efa7d-6b68-4a59-a2ca-5addafcae096": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "e45f5c36-0277-423f-a5b0-15071e1a250e": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "d716dd56-359d-4dad-b89b-ac8f95df505e": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "ff113246-f6e0-4e10-b92c-abd3cd1d7dd6": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "086d98c3-e23e-42b2-9425-cb8915724337": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "8926ed29-3560-42f6-b48c-5a1f504e975f": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "0c305f71-d4bf-401b-ad89-76d814954dcf": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "5a55b869-de6e-42ba-9091-6ee0e02525c2": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "df22be39-3524-4843-93c3-ae4afabd93a7": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "507af9bc-1139-4bf1-b158-ae1f36eb4396": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "3d438f2e-0022-4814-80be-f626ba8fcd40": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "6f7a9e0d-a1ca-459d-aef0-f4006f85c3ea": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "a295b2bd-0d49-4b01-803a-ff96bdcd0d33": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "42cdc339-0a1d-46b9-9a95-dd0c0149a8e6": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "f8d7740c-4cef-420e-a944-1b7caffde643": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "8c340836-46d4-4621-9218-9881523cd7d9": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "ec6a71a7-41ae-4e72-942f-b4bc99c3b3cb": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "935fb02d-9645-4d46-85e0-5504bd01ef80": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "fa3d7f72-7a2e-4275-863a-228cb247a096": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "36977448-9ad9-43ea-85f2-60ee1b92ecd0": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "8622e84a-794b-4b68-aad2-a6a2e0e0d2c7": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "baf1a020-a2a4-401a-9425-eba22ffce13c": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "9d1a102c-92e7-4536-bdea-b6cc693af428": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "bc59aa21-18b2-40a4-a15b-07fe84107d3c": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "b39b492a-0a64-4926-8598-d5acf05d62b5": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "72d3850b-ea48-4500-9cc2-a8b121e1c08c": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "e0672197-9f3e-4414-bca5-e6b4c90aa469": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "df7ccfd1-2642-4d79-851a-a5b07d9b8a97": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "ba68527f-8ec2-4c55-827a-8f4673ae047c": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "7820bd3c-461a-4811-9f0b-1d39c1503c3f": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "d2a99602-b0c7-4f6a-a329-82bdaad3df0c": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "88d00518-2cc9-409e-a336-8e6e4f6aea86": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "3b153660-c5a5-4556-a523-f27c7a86e49f": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "65653183-7d69-408f-a76c-9dd2914f306f": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "c13f1940-9965-4eee-b7e8-af785591ceda": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "a5fab52f-73fa-4f44-9c09-9af1eb20996c": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "438ef4a3-aad3-41a0-831b-f8cba5a6bdc5": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "c1949c46-0c01-445f-8017-b3192d9913bc": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "e553e77d-7ddc-4816-a1c9-4e68605f882c": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "7aad812f-4ed1-42ea-8c8f-654b5ef49d25": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "025dadbc-c175-4a37-a5ec-dff5062b1a50": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "d78f63a2-98c4-481b-9f3d-147505dd9974": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "aebb9f47-d15b-4671-8fe3-debb6e913ae2": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "95161b3c-7d6e-4c02-a0d7-878ac357ebbf": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "89222e6a-f39f-4500-aeea-f615d61b81f0": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "931ea9be-5f4d-428e-beaf-205fc5b4e2b5": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "a306885c-001e-4479-9ae8-459a56527bc1": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "7c9210dc-9550-47eb-b73c-5774aa629c96": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "3e31d9a0-4d87-492e-8c2d-78471cd76cec": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "ba8f47b8-2cc2-4976-a0f9-1bd8da4bcb91": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "462bf18a-d7c7-49e9-9d36-ae826758897c": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "6b655652-e718-4cba-a17b-42ee036531dc": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "49ff023e-209e-495a-9c1a-95d188e954b4": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "71b34441-5a46-431b-a9b3-8c081cd0d74c": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "2942e247-18c6-4a4e-926f-151dec88910b": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "6073c893-d1fe-4408-b9d7-ba3039f27e5b": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "d7c8dc33-235e-4d08-94e9-8b72c2500d0d": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "b55f43a8-f444-4cd8-a3a4-0a4e786ba566": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "4a433427-2a7e-4193-bf83-e15c996915e8": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "d3b28212-a46b-4db8-8bb7-2c946b3cbe76": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "81ae8812-f04f-4f6e-9d71-ee5778f3a178": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "3bb1186e-cbf3-4615-b5bb-8b0a4f4c8363": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "5a0433ec-041d-40e0-aeef-d52e5c2b5f51": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "80b2d4bf-dac4-4c69-91da-cdc740de1e3b": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "9e982350-5e38-4174-afac-dd0d6b244a00": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "c743eac6-1906-4d96-a7aa-667426ec3cc7": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "0f25159f-753d-4eef-84f5-1f9b47394033": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "677f756a-eda4-48b0-ba35-60adc9b44d88": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "ecb67955-f1de-4b9f-bbf4-af16d8f6c09a": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "1f4b1a13-37e5-4d9d-999c-73815a2ddda3": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "09cf66bf-be46-43b5-bac4-89d67825ec17": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "f569e486-da2a-41ef-8bfe-1a4db0d1d268": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "ef5d3acb-b974-4db1-8076-e8db9f142493": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "09946099-2c68-4fcb-bc6c-32b6bf6019fe": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "ea033b6e-f4d2-46ef-b609-93b680852a64": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "8276be38-acc6-4005-ab0d-62680f49f4df": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "34b65551-cca1-48f4-9a62-2145c24e92a4": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "2bade0af-0dee-410b-88ed-78f17133dad7": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "d4ea65f3-b54b-49c4-81ba-56e16eec4fb7": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "0c2bec53-0061-40f8-b389-6b253b49783e": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "c032b20d-49bb-4f95-8c8c-ae6333728a6e": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "339db613-74f9-4141-ac35-04724dce2d23": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "940650fd-f695-4178-b438-cc52a7cd59e9": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "ded5a855-23c1-459d-8390-ba2707fac7c5": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "ca553126-d5b2-48fb-903b-e4585c18eed5": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "ab3e992c-dffc-4895-a1a7-58f23460b092": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "70a7ce84-e3e1-4ef1-933e-7a699ee58b95": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "89641d1d-6ee2-431b-b131-a0b49c59e2c5": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "d56ab93e-d48d-44f2-8139-9bb020afc980": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "bab5837b-cbe2-4fec-ac8a-f3362c7ac1d5": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "2e53bb82-f13f-4157-a3bf-b1a91b94b6a4": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "a259a0f0-8897-4740-b3b2-0ae1041f1bf0": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "c1aee434-6c8e-4958-a851-eda8ab8bb32d": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "699f25fe-09f4-4f82-8f58-baa5b0af8fa4": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "2eea7026-c71d-4c01-a294-0eb54d291501": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "377f2c68-9740-4a9e-a606-09fdfd5129fe": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "0dfc66d9-74eb-41be-a9d1-1d73f452934f": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "cf3e15c7-bc2c-4e7f-acf2-1fbf544acbb3": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "e76a40b2-30d5-4b9c-9cf3-41249eeeeb3a": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "61a5c79a-42d3-4de2-bcd2-13f73729c139": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "15556ff2-3c81-4c6e-aecc-ec8238f3eff3": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "c62ee044-fe46-47ec-97e5-b0d7d626ef97": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "8ee39d92-b2b7-457b-b636-46e655892a11": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "75ecfe5f-1cdb-457c-8130-8e6f14a9dd07": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "5d9165f2-6c2f-492a-8df3-69bd75e08b70": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "76cdd9dd-ab46-4156-bb96-db61ba3b9cee": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "44d88566-7795-49d3-a4a9-5d174cd40007": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "90f4a341-6dbf-435f-8808-2d4b983cb233": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "19c68765-4179-46c2-992f-d493d9300b23": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "da230d72-02b7-4e0b-8189-214747334340": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "785d94f7-fa71-415c-b594-3767680580be": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "5c6c7786-965a-412f-8686-9d528b311e30": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "d9d6969d-209a-42b2-ac10-5d10640324ff": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "b77374ab-6beb-4f0f-8edd-1c70d60d805f": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "6c9eac32-7110-428f-9e76-5ca941f3a812": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "1d4ed7bb-9fef-4cb4-bb8f-1bd5ce1b7542": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "792ffed2-bdbd-4c7a-a758-fdcc5f9fd0d6": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "6516ca82-8637-4a19-98d1-d17763b5a649": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "a18a761b-49cd-416d-8342-839cac722094": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "7dc7329e-072d-4951-9573-db4bdf01b414": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "a87d5ef5-0b7b-4cd5-a3f8-0edb973844b8": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "aca3847e-76cc-4a8d-b247-9ba023cea7a4": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "1a152efc-4aae-42dd-89fa-8aa1f1783855": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "5fd0350b-97bf-4d8b-a14f-c1180687221b": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "da729a36-99f9-4bae-a8d6-823ce50ae9e8": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "a3d50154-b23d-4a2d-8084-2e35e9c02e3c": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "bf19f358-a78f-4723-983c-59e0de5f0a27": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "e5ae2d07-73c6-4f33-a1db-3da50811f067": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "790ebca5-08ba-46ea-9ef3-f5520bf9584c": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "70031321-152a-4552-a056-56ecf61b0e4a": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "23c5f50c-ee67-46eb-a813-3ab665b105fe": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "ab1d4259-65c3-4a01-bd36-7e7df82b8c2e": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "29f136e4-979f-4a31-8937-21e130a2b5f4": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "8ee86f6f-318b-45c5-aad2-e003be777062": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "0f950093-d341-4eb1-a6c4-3fd2cf7d4657": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "3385b717-175a-4dab-9046-d145970a409f": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "8099741a-e1d5-49f0-ba9d-bc1ddbe72175": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "735fb238-6c21-44b0-9f02-31fb880836e6": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "2dfba4ef-85eb-4715-a5ba-075293f206bd": {
+      "points": 13,
+      "protocol_audit": 10,
+      "token_audit": 3
+    },
+    "0d01dc1f-7c3e-46e2-af40-6ec4454c93f0": {
+      "points": 12.9,
+      "protocol_audit": 9.2,
+      "token_audit": 3.7
+    },
+    "9ffcea5d-ef46-4b80-a8fb-74b03d38b2ba": {
+      "points": 12.8,
+      "protocol_audit": 9.8,
+      "token_audit": 3
+    },
+    "4cc96766-4099-4993-9abd-39c385f77afc": {
+      "points": 12.8,
+      "protocol_audit": 9.8,
+      "token_audit": 3
+    },
+    "7081d7c4-d0df-4c68-adce-2bb210cd25e8": {
+      "points": 12.8,
+      "protocol_audit": 9.8,
+      "token_audit": 3
+    },
+    "ae3397ed-1f0f-4aa4-ab62-44413ea8cd9e": {
+      "points": 12.7,
+      "protocol_audit": 8.7,
+      "token_audit": 4
+    },
+    "ecf788e3-d2ef-4fdd-9ece-8a2d96226ddf": {
+      "points": 12.7,
+      "protocol_audit": 8.7,
+      "token_audit": 4
+    },
+    "9c03c77d-e19c-4fcd-9b68-14e254676552": {
+      "points": 12.5,
+      "protocol_audit": 7.5,
+      "token_audit": 5
+    },
+    "19d0ddd5-083a-4839-a01a-5fdf066e94a3": {
+      "points": 12.5,
+      "protocol_audit": 7.5,
+      "token_audit": 5
+    },
+    "578cffd4-1470-44d0-8c5d-e9d4bd403651": {
+      "points": 12.5,
+      "protocol_audit": 7.5,
+      "token_audit": 5
+    },
+    "8ce99629-db2a-49ef-8fa0-f57e4777de79": {
+      "points": 12.5,
+      "protocol_audit": 7.5,
+      "token_audit": 5
+    },
+    "36b0894c-79c8-42bf-9d04-e97b62c85351": {
+      "points": 12.5,
+      "protocol_audit": 7.5,
+      "token_audit": 5
+    },
+    "bac6982a-f344-42f7-9af4-a9882f4a77f0": {
+      "points": 12.5,
+      "protocol_audit": 10,
+      "token_audit": 2.5
+    },
+    "9c4e675e-7615-4d60-90ef-03d58c66b476": {
+      "points": 12.5,
+      "protocol_audit": 10,
+      "token_audit": 2.5
+    },
+    "381b00d5-b4f8-489c-95cb-40018c72bdd3": {
+      "points": 12.5,
+      "protocol_audit": 10,
+      "token_audit": 2.5
+    },
+    "1f42963b-ff24-4563-acb7-0fd35e6ec45b": {
+      "points": 12.5,
+      "protocol_audit": 9,
+      "token_audit": 3.5
+    },
+    "d0f93146-6936-4fac-841e-68178b5a59b2": {
+      "points": 12.5,
+      "protocol_audit": 9,
+      "token_audit": 3.5
+    },
+    "947928b7-c446-49d7-a378-392df37660f7": {
+      "points": 12.5,
+      "protocol_audit": 9,
+      "token_audit": 3.5
+    },
+    "979711ce-d0c0-4aae-a5fc-d7b76e868649": {
+      "points": 12.5,
+      "protocol_audit": 9,
+      "token_audit": 3.5
+    },
+    "843be062-d836-43ef-9670-c78d6ecb60bf": {
+      "points": 12.5,
+      "protocol_audit": 9,
+      "token_audit": 3.5
+    },
+    "8352355c-5ad7-45c5-aca2-628de224f8d8": {
+      "points": 12.5,
+      "protocol_audit": 9,
+      "token_audit": 3.5
+    },
+    "4b6d66f2-704a-4b97-885e-d71ebaa55e12": {
+      "points": 12.4,
+      "protocol_audit": 7.4,
+      "token_audit": 5
+    },
+    "995b269a-8409-4c55-b97e-868f443b432e": {
+      "points": 12.4,
+      "protocol_audit": 7.4,
+      "token_audit": 5
+    },
+    "e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb": {
+      "points": 12.25,
+      "protocol_audit": 7.4,
+      "token_audit": 4.85
+    },
+    "48b5a06f-368c-49ca-8e0f-107cefbcb955": {
+      "points": 12.2,
+      "protocol_audit": 7.7,
+      "token_audit": 4.5
+    },
+    "c48595c8-49bc-4853-80e4-f18c470bbfc3": {
+      "points": 12.1,
+      "protocol_audit": 8.1,
+      "token_audit": 4
+    },
+    "d511efb8-f61b-43ce-bb1e-dffc6a57727f": {
+      "points": 12.1,
+      "protocol_audit": 8.1,
+      "token_audit": 4
+    },
+    "a99bb965-ebaa-4d98-9ed2-fa18de52c605": {
+      "points": 12.05,
+      "protocol_audit": 8.2,
+      "token_audit": 3.85
+    },
+    "f8cd444e-d99f-4132-b234-fd3482bf8806": {
+      "points": 12.05,
+      "protocol_audit": 8.2,
+      "token_audit": 3.85
+    },
+    "4baffdfd-8015-4713-bad4-10a199b30157": {
+      "points": 12,
+      "protocol_audit": 7,
+      "token_audit": 5
+    },
+    "77602b93-35e4-48eb-bd66-043d13f442b1": {
+      "points": 12,
+      "protocol_audit": 7,
+      "token_audit": 5
+    },
+    "21e972fb-b330-4289-8bfa-6a14e925ecdb": {
+      "points": 12,
+      "protocol_audit": 7.5,
+      "token_audit": 4.5
+    },
+    "4e8cc592-c8d5-4824-8155-128ba521e903": {
+      "points": 12,
+      "protocol_audit": 7.5,
+      "token_audit": 4.5
+    },
+    "47e72726-3b2b-4fe6-b4a9-a26e1fcd9a50": {
+      "points": 12,
+      "protocol_audit": 8,
+      "token_audit": 4
+    },
+    "dc5e88c5-b161-4f53-b5bc-ae5694e759ca": {
+      "points": 12,
+      "protocol_audit": 7.5,
+      "token_audit": 4.5
+    },
+    "a5d67f7e-5b51-4a9d-969d-caf051a7f5a4": {
+      "points": 11.9,
+      "protocol_audit": 7.4,
+      "token_audit": 4.5
+    },
+    "8fbe28b8-140d-4e37-8804-5d2aba4daded": {
+      "points": 11.9,
+      "protocol_audit": 7.4,
+      "token_audit": 4.5
+    },
+    "d6037d12-ff22-417b-bdd3-e8954bf27e83": {
+      "points": 11.7,
+      "protocol_audit": 7.7,
+      "token_audit": 4
+    },
+    "3c4412f1-972a-43f2-9c6d-da4f69b72a0a": {
+      "points": 11.7,
+      "protocol_audit": 7.7,
+      "token_audit": 4
+    },
+    "82c4b5fc-9510-42fa-99b4-60eca9f83d82": {
+      "points": 11.7,
+      "protocol_audit": 7.7,
+      "token_audit": 4
+    },
+    "92baa34c-46cd-43c9-ba5c-6dc80d5a9fb0": {
+      "points": 11.7,
+      "protocol_audit": 7.7,
+      "token_audit": 4
+    },
+    "641625b6-77a8-455d-ba87-4188f6e504a4": {
+      "points": 11.7,
+      "protocol_audit": 7.7,
+      "token_audit": 4
+    },
+    "7372edda-f07f-4598-83e5-4edec48c4039": {
+      "points": 11.5,
+      "protocol_audit": 7.5,
+      "token_audit": 4
+    },
+    "4c45cc9e-e1a4-43c9-8a3d-687d96abb07c": {
+      "points": 11.5,
+      "protocol_audit": 7.5,
+      "token_audit": 4
+    },
+    "4438dabc-7f0c-430b-8136-2722711ae663": {
+      "points": 11.5,
+      "protocol_audit": 7.5,
+      "token_audit": 4
+    },
+    "db446cb6-2ec5-4fdd-9812-bdbeab125a31": {
+      "points": 11.5,
+      "protocol_audit": 7.5,
+      "token_audit": 4
+    },
+    "488f06db-5a36-450e-9ba9-b4321be39c7c": {
+      "points": 11.5,
+      "protocol_audit": 7.5,
+      "token_audit": 4
+    },
+    "94623cbe-f6ac-47da-b157-776073f2ac13": {
+      "points": 11.5,
+      "protocol_audit": 7,
+      "token_audit": 4.5
+    },
+    "5d727c74-3199-4327-87d1-d07edb71e325": {
+      "points": 11.5,
+      "protocol_audit": 7.5,
+      "token_audit": 4
+    },
+    "eec42a3c-9087-46f5-8a0e-180f9606ec2c": {
+      "points": 11.4,
+      "protocol_audit": 6.4,
+      "token_audit": 5
+    },
+    "5527ec50-0afb-4812-a794-746d6b37b429": {
+      "points": 11.4,
+      "protocol_audit": 6.4,
+      "token_audit": 5
+    },
+    "d85a7f5f-3624-4b6b-b3a7-eefb42b2a5e9": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "a1a9916c-63b2-49a1-b4b0-cbe8a9e7275c": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "e4b329d3-3efe-4bd7-a282-694141dc358e": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "6e26edc4-dc03-4d6d-a740-1fe69f338101": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "c4660338-6eb9-4337-b0e0-0b145df8650b": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "ea75fef6-f916-465d-81c9-d2a159cbf767": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "535281cc-914e-4be9-82c4-7457f1a05184": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "0ce62070-5201-47d1-84d5-f76d7e0cf5c0": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "0a3c5663-73bd-4d8a-bdcc-5e529a8b741d": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "f03bd621-c1a0-4ff4-9b97-41505ef0f3da": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "c149b02f-aa98-4ba2-9d78-8890f8e23a3b": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "29415471-d7d9-4b60-8aec-a92cc5aa432b": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "69cf831d-624a-4f23-b5e3-c0f63ad1fa01": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "0fddbf5d-ec14-4570-80d3-a70c85573d3e": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "857af8fd-c907-4b9a-a74b-83b446996246": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "d03cebe7-e53a-49d5-977e-dcc8d473c1bc": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "c5c74dd1-995c-4445-9d84-3e710bad7d52": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "e96cbd55-a0a0-446a-89ba-ada6e2991d50": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "65ce8276-b4d9-41ba-9f6f-21fc374cf9bc": {
+      "points": 11.4,
+      "protocol_audit": 7.4,
+      "token_audit": 4
+    },
+    "64078a28-4d66-43d7-bc97-012994a0e4d4": {
+      "points": 11.3,
+      "protocol_audit": 8.1,
+      "token_audit": 3.2
+    },
+    "f65159b4-7bec-40c8-8f31-1fa2f5408738": {
+      "points": 11.3,
+      "protocol_audit": 8.8,
+      "token_audit": 2.5
+    },
+    "d5e3d09c-f681-46cb-932c-8d6fe1ff1487": {
+      "points": 11.2,
+      "protocol_audit": 6.7,
+      "token_audit": 4.5
+    },
+    "145810df-dc01-43e7-8033-e0aa5dceb767": {
+      "points": 11.2,
+      "protocol_audit": 8.7,
+      "token_audit": 2.5
+    },
+    "1c312830-ee96-40c9-b55f-b0f209ca6ebd": {
+      "points": 11.2,
+      "protocol_audit": 8.7,
+      "token_audit": 2.5
+    },
+    "d8c4eff5-c8a9-46fc-a888-057c4c668e72": {
+      "points": 11.1,
+      "protocol_audit": 7.4,
+      "token_audit": 3.7
+    },
+    "3637ce7b-529b-49c1-964c-710a50b2939c": {
+      "points": 11.1,
+      "protocol_audit": 7.4,
+      "token_audit": 3.7
+    },
+    "c8a24fee-ec00-4f38-86c0-9f6daebc4225": {
+      "points": 11.1,
+      "protocol_audit": 7.4,
+      "token_audit": 3.7
+    },
+    "9d499222-a01a-45bb-bbc9-f01c7923693b": {
+      "points": 11.1,
+      "protocol_audit": 7.4,
+      "token_audit": 3.7
+    },
+    "aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd": {
+      "points": 11.1,
+      "protocol_audit": 7.4,
+      "token_audit": 3.7
+    },
+    "54e9b138-3146-4c1f-8dce-1cb948f5ef96": {
+      "points": 11.1,
+      "protocol_audit": 7.4,
+      "token_audit": 3.7
+    },
+    "d1521ec4-45af-4764-8b97-be76701d5a0e": {
+      "points": 11,
+      "protocol_audit": 7,
+      "token_audit": 4
+    },
+    "1a9c61c7-4094-4ee7-8d46-6ea8fb5689f1": {
+      "points": 11,
+      "protocol_audit": 7,
+      "token_audit": 4
+    },
+    "af2d93ad-8b61-4b55-83f5-7de062212bbf": {
+      "points": 11,
+      "protocol_audit": 7,
+      "token_audit": 4
+    },
+    "38897d82-9f66-4752-bb20-3cac104c5f0c": {
+      "points": 11,
+      "protocol_audit": 7,
+      "token_audit": 4
+    },
+    "b31b6aed-26d7-48dd-b23c-43b5048ff1f5": {
+      "points": 11,
+      "protocol_audit": 7,
+      "token_audit": 4
+    },
+    "3f3d129e-2891-4b9e-aba1-07adf8acd5f6": {
+      "points": 11,
+      "protocol_audit": 7,
+      "token_audit": 4
+    },
+    "313bc2ed-81b5-48c2-98b3-ce77d2a588ef": {
+      "points": 11,
+      "protocol_audit": 7,
+      "token_audit": 4
+    },
+    "5a97dc57-ea99-4d8b-aac9-b1b8b80c6b60": {
+      "points": 11,
+      "protocol_audit": 7,
+      "token_audit": 4
+    },
+    "2762c9ef-f888-4a31-a5d2-4b9d18550e03": {
+      "points": 11,
+      "protocol_audit": 7,
+      "token_audit": 4
+    },
+    "f179ea6c-3345-432f-b727-9e68e7881105": {
+      "points": 11,
+      "protocol_audit": 6,
+      "token_audit": 5
+    },
+    "7d733700-ae9c-42c3-bd44-60a4209e6297": {
+      "points": 11,
+      "protocol_audit": 7,
+      "token_audit": 4
+    },
+    "5d27554a-d2b8-4881-8c5c-6b288d7f6877": {
+      "points": 11,
+      "protocol_audit": 7,
+      "token_audit": 4
+    },
+    "a451a8da-e3c4-4049-9bab-ea90ab96234a": {
+      "points": 10.9,
+      "protocol_audit": 6.4,
+      "token_audit": 4.5
+    },
+    "f083596e-032d-4d6b-a7a8-1836d3f99bcd": {
+      "points": 10.9,
+      "protocol_audit": 8.4,
+      "token_audit": 2.5
+    },
+    "12169161-7815-4160-bd77-a4202cf7c2c1": {
+      "points": 10.9,
+      "protocol_audit": 8.4,
+      "token_audit": 2.5
+    },
+    "a5f59d50-68c5-4ae4-b678-df8338886ccb": {
+      "points": 10.8,
+      "protocol_audit": 6.8,
+      "token_audit": 4
+    },
+    "1238c321-5868-4671-b1d3-c0e3a9cdf022": {
+      "points": 10.8,
+      "protocol_audit": 6.8,
+      "token_audit": 4
+    },
+    "a7e28f73-d613-4ddf-ab90-756018fdf299": {
+      "points": 10.8,
+      "protocol_audit": 7.8,
+      "token_audit": 3
+    },
+    "fbd2a90a-f18f-412f-9f75-cc75432efd3f": {
+      "points": 10.8,
+      "protocol_audit": 7.8,
+      "token_audit": 3
+    },
+    "ff59b165-64e0-4868-a6db-6049b5135358": {
+      "points": 10.7,
+      "protocol_audit": 6.7,
+      "token_audit": 4
+    },
+    "062ba2ef-c132-4989-8e67-0ea2ebd37888": {
+      "points": 10.7,
+      "protocol_audit": 6.7,
+      "token_audit": 4
+    },
+    "6e6f53b6-6669-4037-948c-f42e5b0a243e": {
+      "points": 10.7,
+      "protocol_audit": 6.7,
+      "token_audit": 4
+    },
+    "13392973-be6e-4b2f-bce9-4f7dd53d1c3a": {
+      "points": 10.7,
+      "protocol_audit": 7,
+      "token_audit": 3.7
+    },
+    "6174b1d6-8212-4964-95bf-ca9c539864ba": {
+      "points": 10.7,
+      "protocol_audit": 7.7,
+      "token_audit": 3
+    },
+    "c51e151e-44ad-4f25-9911-102bd00811dc": {
+      "points": 10.7,
+      "protocol_audit": 7.7,
+      "token_audit": 3
+    },
+    "570ddae7-acae-4277-905b-278cd994b08d": {
+      "points": 10.7,
+      "protocol_audit": 7.7,
+      "token_audit": 3
+    },
+    "6600934f-6323-447d-8a7d-67fbede8529d": {
+      "points": 10.5,
+      "protocol_audit": 6,
+      "token_audit": 4.5
+    },
+    "dac406f6-5600-437e-849d-f03daa383864": {
+      "points": 10.5,
+      "protocol_audit": 6,
+      "token_audit": 4.5
+    },
+    "7f980c43-5b87-4690-a11a-b0e8a5e37a63": {
+      "points": 10.4,
+      "protocol_audit": 7.9,
+      "token_audit": 2.5
+    },
+    "3e78432a-f58b-46b2-ba69-1b446efc3e21": {
+      "points": 10.4,
+      "protocol_audit": 7.9,
+      "token_audit": 2.5
+    },
+    "d45867ba-dd86-45f4-9b89-1893b65eaf69": {
+      "points": 10.4,
+      "protocol_audit": 6.4,
+      "token_audit": 4
+    },
+    "e3384973-c269-4849-9747-3a8b48897114": {
+      "points": 10.3,
+      "protocol_audit": 5.8,
+      "token_audit": 4.5
+    },
+    "c74227a1-e738-4021-bbe1-13363815aecb": {
+      "points": 10,
+      "protocol_audit": 5,
+      "token_audit": 5
+    },
+    "727fc50d-b687-4f74-a30e-ee961c25c5e3": {
+      "points": 10,
+      "protocol_audit": 6,
+      "token_audit": 4
+    },
+    "e22ac3c1-6203-4b4d-8e5e-fae9505839ab": {
+      "points": 10,
+      "protocol_audit": 5,
+      "token_audit": 5
+    },
+    "fa4d7ee4-0001-4133-9e8d-cf7d5d194a91": {
+      "points": 10,
+      "protocol_audit": 6,
+      "token_audit": 4
+    },
+    "2ef7f0cd-b190-482b-b5e3-198bb93968a1": {
+      "points": 10,
+      "protocol_audit": 5,
+      "token_audit": 5
+    },
+    "e89539a4-5600-40cf-bef6-5bace2fc9b8f": {
+      "points": 10,
+      "protocol_audit": 10,
+      "token_audit": 0
+    },
+    "e10580de-1ad2-4bbc-a0e8-ad4db95df4a3": {
+      "points": 10,
+      "protocol_audit": 10,
+      "token_audit": 0
+    },
+    "170efe7a-a0c8-490b-8087-8ee189c129f3": {
+      "points": 10,
+      "protocol_audit": 10,
+      "token_audit": 0
+    },
+    "bf6ca887-e357-49ec-8031-0d1a6141c455": {
+      "points": 9.8,
+      "protocol_audit": 9.8,
+      "token_audit": 0
+    },
+    "aabf8498-4b0d-47e6-863d-5742bf563bd2": {
+      "points": 9.7,
+      "protocol_audit": 9.7,
+      "token_audit": 0
+    },
+    "3027f6e5-c7bf-4e44-a3a7-5e7211b374cc": {
+      "points": 9.7,
+      "protocol_audit": 9.7,
+      "token_audit": 0
+    },
+    "78a8e9f9-8f2e-4a6e-a613-ce461ec869cd": {
+      "points": 9.7,
+      "protocol_audit": 9.7,
+      "token_audit": 0
+    },
+    "a71321b4-7873-4472-8146-13a426d51422": {
+      "points": 9.7,
+      "protocol_audit": 9.7,
+      "token_audit": 0
+    },
+    "b77a60fc-002a-4941-ac26-ec89836c5202": {
+      "points": 9.7,
+      "protocol_audit": 9.7,
+      "token_audit": 0
+    },
+    "763f056b-94ce-47cc-843a-6beb6eee0946": {
+      "points": 9.7,
+      "protocol_audit": 9.7,
+      "token_audit": 0
+    },
+    "c1cc3ce7-22ec-4ff3-825e-4f60c92bb662": {
+      "points": 9.7,
+      "protocol_audit": 9.7,
+      "token_audit": 0
+    },
+    "b49e91d4-961e-49f1-98cd-f3b6d4422b65": {
+      "points": 9.7,
+      "protocol_audit": 9.7,
+      "token_audit": 0
+    },
+    "41e759da-5cfd-45b9-bb50-316a72fcb3b5": {
+      "points": 9.7,
+      "protocol_audit": 9.7,
+      "token_audit": 0
+    },
+    "2bc0cfec-842e-4319-8da3-85374f087c33": {
+      "points": 9.7,
+      "protocol_audit": 9.7,
+      "token_audit": 0
+    },
+    "8d222944-11f4-49f3-9b64-1716eb8b7794": {
+      "points": 9.7,
+      "protocol_audit": 9.7,
+      "token_audit": 0
+    },
+    "5fd328af-4203-471b-bd16-1705c726d926": {
+      "points": 9.6,
+      "protocol_audit": 6.4,
+      "token_audit": 3.2
+    },
+    "712ce948-bd9e-4f4a-8916-b72c447f7578": {
+      "points": 9.6,
+      "protocol_audit": 6.4,
+      "token_audit": 3.2
+    },
+    "d4491d92-ae68-4fb6-bde6-12207d1102b6": {
+      "points": 9,
+      "protocol_audit": 5,
+      "token_audit": 4
+    },
+    "432cb0b0-7087-4a4e-94e9-6c8092c05539": {
+      "points": 9,
+      "protocol_audit": 5,
+      "token_audit": 4
+    },
+    "8847526a-17a9-46d9-b42d-04617ad31793": {
+      "points": 9,
+      "protocol_audit": 5,
+      "token_audit": 4
+    },
+    "3331548c-0ff8-40b6-8502-8260623a37df": {
+      "points": 9,
+      "protocol_audit": 5,
+      "token_audit": 4
+    },
+    "d646f32f-d5af-4e34-a29f-8ebeea6a8520": {
+      "points": 8.5,
+      "protocol_audit": 6,
+      "token_audit": 2.5
+    },
+    "fd106377-2339-49f1-b7a5-8e479322b60d": {
+      "points": 8.2,
+      "protocol_audit": 5,
+      "token_audit": 3.2
+    },
+    "c38c4411-948a-4769-a93f-5860457a339c": {
+      "points": 8.2,
+      "protocol_audit": 5,
+      "token_audit": 3.2
+    },
+    "63e16117-f67d-458c-a131-f4f1fdcbdc77": {
+      "points": 8.2,
+      "protocol_audit": 5,
+      "token_audit": 3.2
+    },
+    "fc689839-abf0-4649-a9dc-8a4778550f4b": {
+      "points": 8.2,
+      "protocol_audit": 5,
+      "token_audit": 3.2
+    },
+    "41d13955-b8d2-4897-a9e6-2ae5d18593e2": {
+      "points": 8.2,
+      "protocol_audit": 5,
+      "token_audit": 3.2
+    },
+    "c4a3e969-02c4-479a-8837-ca498eea3583": {
+      "points": 8.2,
+      "protocol_audit": 5,
+      "token_audit": 3.2
+    },
+    "15a38ed8-75f4-4487-8825-7622ba82fb45": {
+      "points": 8.2,
+      "protocol_audit": 5,
+      "token_audit": 3.2
+    },
+    "593cbec0-9af8-40e8-9571-3dc00e0f264c": {
+      "points": 8.2,
+      "protocol_audit": 5,
+      "token_audit": 3.2
+    },
+    "a1b05c10-6d01-4b64-9247-4e86ca82a291": {
+      "points": 7.5,
+      "protocol_audit": 5,
+      "token_audit": 2.5
+    },
+    "3987099a-9165-47a3-a92f-df14e8d60e45": {
+      "points": 7.1,
+      "protocol_audit": 7.1,
+      "token_audit": 0
+    },
+    "be50b874-8147-440d-b8ca-f2c202e9ed64": {
+      "points": 6.8,
+      "protocol_audit": 6.8,
+      "token_audit": 0
+    },
+    "8863fc1e-2029-481d-a625-06abbcba9e11": {
+      "points": 6,
+      "protocol_audit": 6,
+      "token_audit": 0
+    },
+    "503c47d7-33e4-4527-8326-5fafb25fc65b": {
+      "points": 6,
+      "protocol_audit": 6,
+      "token_audit": 0
+    },
+    "aec4729d-5547-484c-962a-24ec9914603a": {
+      "points": 6,
+      "protocol_audit": 6,
+      "token_audit": 0
+    },
+    "2c1a4e26-63bc-4a94-911f-c439bb6c6e24": {
+      "points": 6,
+      "protocol_audit": 6,
+      "token_audit": 0
+    },
+    "6068fa38-397e-40f2-94b0-9499ff7ac5ad": {
+      "points": 6,
+      "protocol_audit": 6,
+      "token_audit": 0
+    },
+    "a9bf4c45-bf23-4956-bc6d-7f12b916c7b3": {
+      "points": 6,
+      "protocol_audit": 6,
+      "token_audit": 0
+    },
+    "57885844-7b3f-49b3-969b-9405b165fa78": {
+      "points": 6,
+      "protocol_audit": 6,
+      "token_audit": 0
+    },
+    "8a28570f-2316-488a-94a7-67c87e76c1f1": {
+      "points": 5,
+      "protocol_audit": 5,
+      "token_audit": 0
+    },
+    "ba0f675f-9f14-407b-b278-66d8f59f49ca": {
+      "points": 5,
+      "protocol_audit": 0,
+      "token_audit": 5
+    },
+    "1731a991-a218-4988-891b-9e6e32a69506": {
+      "points": 5,
+      "protocol_audit": 0,
+      "token_audit": 5
+    },
+    "065ea91c-deff-4da0-a06f-64c642780936": {
+      "points": 5,
+      "protocol_audit": 0,
+      "token_audit": 5
+    },
+    "0984238e-3eae-497c-ad47-b1c29a7aa71f": {
+      "points": 4.5,
+      "protocol_audit": 0,
+      "token_audit": 4.5
+    },
+    "853ba9d2-80b8-4381-a3a6-88bd4d636cdf": {
+      "points": 4.5,
+      "protocol_audit": 0,
+      "token_audit": 4.5
+    },
+    "75ebf8be-5578-460c-a529-4ae8c35f6138": {
+      "points": 4.5,
+      "protocol_audit": 0,
+      "token_audit": 4.5
+    },
+    "bef1c05d-3df9-4c2d-bcaf-eec3799fcae2": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "14bd0ebc-1c70-4b61-80a9-91390179286a": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "a0860ad8-ba2a-4ff8-8a13-348788864f23": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "1438fc47-2b15-47ac-8514-1ae7b7246cac": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "1382b89f-180f-40f6-9347-62e5ddc905b2": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "69c4caa5-0dc7-4608-8385-b87753fd126b": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "5776ffc6-a789-4ad5-80d0-631bc54f80c5": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "90c0b5b5-6e92-47b8-b644-fcb4a4a0d708": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "f06872f7-a5c9-478e-a7cf-a3ba356b99e6": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "9d21c8a0-4ea9-4585-81a7-e3d09ab24a45": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "1213b66c-82c8-4085-9047-6c962f5479a0": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "468f182d-76e4-46a0-970b-e98b21fcc4a6": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "1d60f574-c41c-444f-8604-462eb7b714a5": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "4c7fc9a2-bc0c-4b16-bdd3-198006d09c1d": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "4d296741-940d-44c1-a729-f6bd1f330f6f": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "d9eab20a-2251-4186-a2bb-f1adb8258538": {
+      "points": 4,
+      "protocol_audit": 0,
+      "token_audit": 4
+    },
+    "4aa13699-f779-47aa-aa34-078c3a8b489e": {
+      "points": 0,
+      "protocol_audit": 0,
+      "token_audit": 0
+    },
+    "567c8eb4-a71c-4bf8-b063-5be5329e4fe7": {
+      "points": 0,
+      "protocol_audit": 0,
+      "token_audit": 0
+    },
+    "e575606e-5642-4f87-b9ad-3e53d6f83c82": {
+      "points": 0,
+      "protocol_audit": 0,
+      "token_audit": 0
+    },
+    "c043062f-fcd6-47aa-b063-70691dc25c1c": {
+      "points": 0,
+      "protocol_audit": 0,
+      "token_audit": 0
+    },
+    "d764f4ea-c791-4c10-a2d1-505b6c75712a": {
+      "points": 0,
+      "protocol_audit": 0,
+      "token_audit": 0
+    },
+    "df35754c-2922-41c1-b301-6baf223d6f2a": {
+      "points": 0,
+      "protocol_audit": 0,
+      "token_audit": 0
+    },
+    "95d4f805-1800-4184-98a0-6e49b3ccad8a": {
+      "points": 0,
+      "protocol_audit": 0,
+      "token_audit": 0
+    }
+  }
+}

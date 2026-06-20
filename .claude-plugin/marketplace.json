@@ -1,0 +1,18 @@
+{
+  "name": "vsxyz",
+  "description": "Team Versus plugin marketplace — VersusOS and related skills.",
+  "owner": {
+    "name": "Team Versus"
+  },
+  "plugins": [
+    {
+      "name": "versusos",
+      "description": "Stablecoin-only DeFi yield investing: collect, score safety, rank by APY-to-safety. Advisory v1.",
+      "version": "0.13.0",
+      "source": "./",
+      "author": {
+        "name": "Team Versus"
+      }
+    }
+  ]
+}

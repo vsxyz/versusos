@@ -1,0 +1,19 @@
+{
+  "source": "defillama_yields",
+  "fetched_at": "2026-06-16T00:00:00Z",
+  "counts": {"fetched": 4, "after_filter": 4},
+  "vaults": [
+    {"pool": "v1", "project": "usual", "chain": "Ethereum", "symbol": "USD0",
+     "tvlUsd": 25000000, "apy": 6.4, "stablecoin": true,
+     "underlyingTokens": ["0x73a15FED60bf67631dc6cd7Bc5B6e8da8190aCF5"]},
+    {"pool": "v2", "project": "aave-v3", "chain": "Ethereum", "symbol": "USDC",
+     "tvlUsd": 100000000, "apy": 5.0, "stablecoin": true,
+     "underlyingTokens": ["0xA0b86991c6218b36C1D19D4a2e9Eb0cE3606eB48"]},
+    {"pool": "v3", "project": "compound-v3", "chain": "Ethereum", "symbol": "USDC",
+     "tvlUsd": 50000000, "apy": 4.2, "stablecoin": true,
+     "underlyingTokens": ["0xA0b86991c6218b36C1D19D4a2e9Eb0cE3606eB48"]},
+    {"pool": "v4", "project": "kamino", "chain": "Solana", "symbol": "USDC",
+     "tvlUsd": 9000000, "apy": 8.0, "stablecoin": true,
+     "underlyingTokens": ["EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"]}
+  ]
+}

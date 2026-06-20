@@ -1,0 +1,14 @@
+[
+  {"slug": "morpho-blue", "classification": "audited", "audited": "yes",
+   "score": 9, "confidence": "high", "auditors": ["OpenZeppelin", "Cantina"],
+   "reports": [{"firm": "OpenZeppelin", "date": "2024-01", "url": "https://docs/morpho-blue"}],
+   "bug_bounty": {"platform": "Immunefi", "max_usd": 2500000, "url": "https://immunefi.com/x"},
+   "rwa_evidence": null, "exploits_seen": 0, "sources": ["https://docs/morpho-blue"],
+   "notes": "multiple reputable audits + bounty"},
+  {"slug": "comb-financial", "classification": "unknown", "audited": "unknown",
+   "score": null, "confidence": "low", "auditors": [], "reports": [],
+   "bug_bounty": null, "rwa_evidence": null, "exploits_seen": 0,
+   "sources": [], "notes": "no verifiable reports; protocol appears closed"},
+  {"slug": "broken", "classification": "nope", "audited": "yes", "score": 99,
+   "confidence": "high", "sources": []}
+]

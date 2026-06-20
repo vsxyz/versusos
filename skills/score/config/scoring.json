@@ -1,0 +1,44 @@
+{
+  "_doc": "Points model (see references/scoring-methodology.md). Each factor returns points; raw = sum; final = max(0, raw - exploit.penalty_per * exploit_count). 'table' rows are [lower_bound, points] scanned high->low (half-open). Tune here, not in code.",
+  "model": "points_v1",
+  "normalization": {"score1_max": 55, "score2_max": 45},
+  "depeg": {
+    "max": 15,
+    "threshold": 0.98,
+    "abnormal_price_delta": 0.5,
+    "recency_days": 30,
+    "deductions": [
+      {"max_days": 30, "penalty": 10},
+      {"max_days": 90, "penalty": 5},
+      {"max_days": 180, "penalty": 3}
+    ],
+    "history_caps": [
+      {"min_days": 180, "cap": 15},
+      {"min_days": 90, "cap": 12},
+      {"min_days": 30, "cap": 8},
+      {"min_days": 1, "cap": 5}
+    ]
+  },
+  "vault_tvl": {
+    "table": [[1000000, 20], [750000, 18], [500000, 15], [250000, 10],
+              [150000, 8], [100000, 5], [0, 0]]
+  },
+  "pool_liquidity": {
+    "min_pool_tvl": 50000,
+    "abnormal_price_delta": 0.5,
+    "counterparty_whitelist": ["USDC", "USDT"],
+    "table": [[1000000, 20], [750000, 18], [500000, 15], [250000, 12],
+              [100000, 10], [50000, 8], [25000, 5], [10000, 2], [0, 0]]
+  },
+  "dynamic": {
+    "full": 30,
+    "missing_points": 0,
+    "threshold": 0.98,
+    "window_hours": 12,
+    "recovery": [[3600, 0], [21600, 10], [43200, 20]]
+  },
+  "contract_token_safety": {"max": 15},
+  "exploit": {"penalty_per": 15},
+  "grades": [[80, "Safe"], [65, "Moderate"], [50, "Aggressive"],
+             [30, "High Risk"], [0, "Avoid"]]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "data": [
+    {"pool": "p1", "project": "aave-v3", "chain": "Ethereum", "symbol": "USDC", "tvlUsd": 5000000, "apyBase": 4.5, "apy": 4.8, "stablecoin": true, "exposure": "single", "ilRisk": "no"},
+    {"pool": "p2", "project": "compound-v3", "chain": "Base", "symbol": "USDT", "tvlUsd": 2000000, "apyBase": 6.1, "apy": 6.1, "stablecoin": true, "exposure": "single", "ilRisk": "no"},
+    {"pool": "p3", "project": "morpho", "chain": "Ethereum", "symbol": "EURC", "tvlUsd": 1500000, "apyBase": 3.2, "apy": 3.2, "stablecoin": true, "exposure": "single", "ilRisk": "no"},
+    {"pool": "p4", "project": "aerodrome", "chain": "Base", "symbol": "WETH-MSETH", "tvlUsd": 21000000, "apyBase": 0.9, "apy": 2.3, "stablecoin": false, "exposure": "multi", "ilRisk": "yes"},
+    {"pool": "p5", "project": "curve", "chain": "Ethereum", "symbol": "USDC-USDT", "tvlUsd": 9000000, "apyBase": 5.0, "apy": 5.5, "stablecoin": true, "exposure": "multi", "ilRisk": "no"},
+    {"pool": "p6", "project": "somevault", "chain": "Ethereum", "symbol": "USDC", "tvlUsd": 500000, "apyBase": 9.9, "apy": 9.9, "stablecoin": true, "exposure": "single", "ilRisk": "no"},
+    {"pool": "p7", "project": "noapy", "chain": "Ethereum", "symbol": "DAI", "tvlUsd": 3000000, "apyBase": null, "apy": null, "stablecoin": true, "exposure": "single", "ilRisk": "no"},
+    {"pool": "p8", "project": "aerodrome", "chain": "Base", "symbol": "USDC-WETH", "tvlUsd": 2000000, "apyBase": 12.0, "apy": 14.1, "stablecoin": false, "exposure": "multi", "ilRisk": "yes"},
+    {"pool": "p9", "project": "curve", "chain": "Ethereum", "symbol": "DAI-USDC-USDT", "tvlUsd": 50000000, "apyBase": 1.1, "apy": 1.4, "stablecoin": true, "exposure": "multi", "ilRisk": "no"},
+    {"pool": "p10", "project": "curve", "chain": "Ethereum", "symbol": "USDT-DAI", "tvlUsd": 4000000, "apyBase": 3.0, "apy": 3.0, "stablecoin": true, "exposure": "multi", "ilRisk": "no"}
+  ]
+}

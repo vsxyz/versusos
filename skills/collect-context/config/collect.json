@@ -1,0 +1,13 @@
+{
+  "_doc": "Options for the collect-context collector. news_limit caps items per coin (MCP tool max 20); throttle_seconds spaces MCP calls politely. Coin symbols are seeded from the collect-vault cache (vaults[].symbol, LP pairs split on '-') and filtered to stablecoin_whitelist (case-insensitive) so pair vaults' non-stable partners and protocol-wrapped vault tokens are dropped. Override at runtime: --extra-symbols A,B adds coins on request; --all-symbols bypasses the whitelist entirely. Requires the CMC_PRO_API_KEY env var or ~/.versusos/.env.",
+  "news_limit": 10,
+  "throttle_seconds": 0.5,
+  "stablecoin_whitelist": [
+    "USDC", "USDT", "DAI", "FRAX", "FRXUSD", "GHO", "PYUSD", "USDE", "FDUSD",
+    "CRVUSD", "USDS", "TUSD", "LUSD", "SUSD", "USDP", "GUSD", "MIM", "DOLA",
+    "USDD", "USD0", "USDM", "USDX", "USDA", "USR", "RLUSD", "USDL", "USDY",
+    "USDB", "USDF", "DEUSD", "USD1", "USDG", "USDQ", "USDO", "USDH", "USTB",
+    "BUIDL", "OUSD", "CUSD", "YUSD", "BOLD", "AUSD", "VUSD", "FXUSD", "EUSD",
+    "EURC", "EURS", "EURE"
+  ]
+}

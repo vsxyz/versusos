@@ -1,0 +1,21 @@
+{
+  "source": "defillama_yields",
+  "fetched_at": "2026-06-13T00:00:00Z",
+  "vaults": [
+    {"pool": "p1", "project": "morpho-blue", "tvlUsd": 3000000000},
+    {"pool": "p2", "project": "morpho-blue", "tvlUsd": 500000000},
+    {"pool": "p3", "project": "comb-financial", "tvlUsd": 1000000},
+    {"pool": "p4", "project": "tiny-proto", "tvlUsd": 5000}
+  ],
+  "audit_triage": {
+    "available": true,
+    "source": "defillama_protocols",
+    "fetched_at": "2026-06-13T00:00:00Z",
+    "by_project": {
+      "morpho-blue": {"audits": 2, "audits_label": "audited"},
+      "comb-financial": {"audits": 0, "audits_label": "none"},
+      "tiny-proto": {"audits": 0, "audits_label": "none"}
+    },
+    "unresolved_projects": []
+  }
+}

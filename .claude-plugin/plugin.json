@@ -1,0 +1,19 @@
+{
+  "name": "versusos",
+  "description": "Stablecoin-only DeFi yield investing: collect yield/liquidity data, score safety, and rank opportunities by APY-to-safety. Advisory (read-only) v1.",
+  "version": "0.13.0",
+  "author": {
+    "name": "Team Versus"
+  },
+  "homepage": "https://github.com/vsxyz/versusos",
+  "repository": "https://github.com/vsxyz/versusos",
+  "license": "MIT",
+  "keywords": [
+    "defi",
+    "stablecoin",
+    "yield",
+    "risk",
+    "safety-score",
+    "skill"
+  ]
+}

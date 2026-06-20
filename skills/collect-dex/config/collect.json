@@ -1,0 +1,36 @@
+{
+  "_doc": "Options for the collect-dex discovery collector. Targets are seeded from the collect-vault cache (underlyingTokens); pools are discovered via Dexscreener token-pairs. counterparty_whitelist lists the USDC/USDT contract addresses (lowercase) per chain that qualify a pool's counterparty side; chain_aliases maps chain ids to CMC DEX network slugs; gecko_aliases maps them to GeckoTerminal network ids. abnormal_price_delta is the price-sanity band used only to pick the per-target history pool (score applies the authoritative $50K + price filters). min_pool_liquidity is the persist floor: a discovered pool is written only when its snapshot liquidity_usd is >= this OR it is the per-target history pool — pools below it feed no score factor. Keep it equal to score's pool_liquidity.min_pool_tvl so the cut stays score-neutral; if you lower score's threshold, lower this and re-collect, else sub-threshold pools score wants would be missing. cmc_batch_size caps how many pool addresses go in one CMC quotes call: the per-chain address list is filtered to plain contract addresses (CMC 400s on pool-id hashes and Curve composite addresses) and chunked into this many per request so a long list does not overflow the URI (HTTP 414); lower it if 414s recur, raise it for fewer round-trips. cmc_networks is the allowlist of networks CMC's DEX API actually serves: chains whose network is absent (e.g. bsc, avalanche — CMC returns 400 'network is not supported') skip the CMC call entirely and use the Dexscreener fallback snapshot. Discovery still covers those chains (Dexscreener), so they stay scored; update this list if CMC's DEX coverage changes.",
+  "history_days": 180,
+  "ds_throttle_seconds": 0,
+  "abnormal_price_delta": 0.5,
+  "min_pool_liquidity": 50000,
+  "cmc_batch_size": 100,
+  "cmc_networks": ["ethereum", "base", "arbitrum", "optimism", "polygon"],
+  "chain_aliases": {
+    "ethereum": "ethereum",
+    "base": "base",
+    "arbitrum": "arbitrum",
+    "optimism": "optimism",
+    "polygon": "polygon",
+    "avalanche": "avalanche",
+    "bsc": "bsc"
+  },
+  "gecko_aliases": {
+    "ethereum": "eth",
+    "base": "base",
+    "arbitrum": "arbitrum",
+    "optimism": "optimism",
+    "polygon": "polygon_pos",
+    "avalanche": "avax",
+    "bsc": "bsc"
+  },
+  "counterparty_whitelist": {
+    "ethereum": ["0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48", "0xdac17f958d2ee523a2206206994597c13d831ec7"],
+    "base": ["0x833589fcd6edb6e08f4c7c32d4f71b54bda02913", "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2"],
+    "arbitrum": ["0xaf88d065e77c8cc2239327c5edb3a432268e5831", "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8", "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"],
+    "optimism": ["0x0b2c639c533813f4aa9d7837caf62653d097ff85", "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"],
+    "polygon": ["0x3c499c542cef5e3811e1192ce70d8cc03d5c3359", "0x2791bca1f2de4661ed88a30c99a7a9449aa84174", "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"],
+    "avalanche": ["0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e", "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7"],
+    "bsc": ["0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d", "0x55d398326f99059ff775485246999027b3197955"]
+  }
+}

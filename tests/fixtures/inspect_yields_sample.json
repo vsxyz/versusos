@@ -1,0 +1,12 @@
+{
+  "source": "defillama_yields",
+  "fetched_at": "2026-06-18T00:00:00Z",
+  "counts": {"fetched": 5, "after_filter": 5},
+  "vaults": [
+    {"pool": "v1", "project": "usual", "chain": "Ethereum", "symbol": "USD0", "tvlUsd": 25000000, "apyBase": 6.1, "apy": 6.4, "underlyingTokens": ["0x73a15FED60bf67631dc6cd7Bc5B6e8da8190aCF5"]},
+    {"pool": "v2", "project": "aave-v3", "chain": "Ethereum", "symbol": "USDC", "tvlUsd": 100000000, "apyBase": 5.0, "apy": 5.0, "underlyingTokens": ["0xA0b86991c6218b36C1D19D4a2e9Eb0cE3606eB48"]},
+    {"pool": "v3", "project": "compound-v3", "chain": "Ethereum", "symbol": "USDC", "tvlUsd": 50000000, "apyBase": 4.2, "apy": 4.2, "underlyingTokens": ["0xA0b86991c6218b36C1D19D4a2e9Eb0cE3606eB48"]},
+    {"pool": "v4", "project": "kamino", "chain": "Solana", "symbol": "USDC", "tvlUsd": 9000000, "apyBase": 8.0, "apy": 8.0, "underlyingTokens": ["EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"]},
+    {"pool": "v5", "project": "moonwell", "chain": "Base", "symbol": "USDC", "tvlUsd": 30000000, "apyBase": 7.0, "apy": 7.0, "underlyingTokens": ["0xA0b86991c6218b36C1D19D4a2e9Eb0cE3606eB48"]}
+  ]
+}

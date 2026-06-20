@@ -1,0 +1,38 @@
+[
+  {
+    "chainId": "ethereum", "dexId": "uniswap", "labels": ["v3"],
+    "pairAddress": "0xCCCC000000000000000000000000000000000001",
+    "baseToken": {"address": "0x73a15FED60bf67631dc6cd7Bc5B6e8da8190aCF5", "name": "Usual USD", "symbol": "USD0"},
+    "quoteToken": {"address": "0xA0b86991c6218b36C1D19D4a2e9Eb0cE3606eB48", "name": "USD Coin", "symbol": "USDC"},
+    "priceNative": "1.0", "priceUsd": "1.0",
+    "volume": {"h24": 1000000.0},
+    "liquidity": {"usd": 1979006.0, "base": 744330, "quote": 1235141}
+  },
+  {
+    "chainId": "ethereum", "dexId": "pancakeswap", "labels": ["v3"],
+    "pairAddress": "0xCCCC000000000000000000000000000000000002",
+    "baseToken": {"address": "0x73a15FED60bf67631dc6cd7Bc5B6e8da8190aCF5", "name": "Usual USD", "symbol": "USD0"},
+    "quoteToken": {"address": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "name": "Tether USD", "symbol": "USDT"},
+    "priceNative": "1.0", "priceUsd": "1.0",
+    "volume": {"h24": 50.0},
+    "liquidity": {"usd": 367.0, "base": 163, "quote": 203}
+  },
+  {
+    "chainId": "ethereum", "dexId": "uniswap", "labels": ["v3"],
+    "pairAddress": "0xCCCC000000000000000000000000000000000003",
+    "baseToken": {"address": "0xBBBB000000000000000000000000000000000099", "name": "Backed USD0", "symbol": "bUSD0"},
+    "quoteToken": {"address": "0x73a15FED60bf67631dc6cd7Bc5B6e8da8190aCF5", "name": "Usual USD", "symbol": "USD0"},
+    "priceNative": "1.0", "priceUsd": "1.0",
+    "volume": {"h24": 200000.0},
+    "liquidity": {"usd": 3717627.0, "base": 1519003, "quote": 2253254}
+  },
+  {
+    "chainId": "ethereum", "dexId": "curve", "labels": [],
+    "pairAddress": "0xCCCC000000000000000000000000000000000004",
+    "baseToken": {"address": "0xdAC17F958D2ee523a2206206994597C13D831ec7", "name": "Tether USD", "symbol": "USDT"},
+    "quoteToken": {"address": "0x73a15FED60bf67631dc6cd7Bc5B6e8da8190aCF5", "name": "Usual USD", "symbol": "USD0"},
+    "priceNative": "1.0", "priceUsd": "1.0",
+    "volume": {"h24": 300000.0},
+    "liquidity": {"usd": 615669.0, "base": 191229, "quote": 424921}
+  }
+]

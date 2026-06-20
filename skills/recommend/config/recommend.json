@@ -1,0 +1,12 @@
+{
+  "_doc": "recommend deductive engine: bands map normalized_score to Pick buckets; exclusions are the cache-backed hard gates (score<floor, recent exploit, recent depeg deep-only, measured dynamic-0 deep-only); display sizes the views and the high-APY exclusion callout. bands must stay in sync with score's config/scoring.json grades (same 80/65/50/30 boundaries) so a pick's displayed grade matches its bucket.",
+  "bands": { "conservative_min": 80, "balanced_min": 65, "aggressive_min": 50, "avoid_min": 30 },
+  "exclusions": {
+    "score_floor": 30,
+    "exploit_window_days": 90,
+    "gate_depeg": true,
+    "gate_dynamic_zero": true
+  },
+  "display": { "reps_per_bucket": 2, "expand_count": 20, "high_apy_callout_apy": 15.0 },
+  "asset_families": {}
+}

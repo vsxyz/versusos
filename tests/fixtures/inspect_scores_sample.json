@@ -1,0 +1,12 @@
+{
+  "source": "versusos_score",
+  "generated_at": "2026-06-18T00:30:00Z",
+  "model": "points_v1",
+  "counts": {"vaults_scored": 4},
+  "scores": [
+    {"pool": "v2", "project": "aave-v3", "chain": "Ethereum", "symbol": "USDC", "tvlUsd": 100000000, "apyBase": 5.0, "apy": 5.0, "basis": "initial", "normalized_score": 72.73, "final_safety_score": 72.73, "grade": "Moderate", "factors": {"contract_token_safety": {"points": 0.0}, "depeg": 0, "vault_tvl": 20, "pool_liquidity": 20, "dynamic": {"points": 0, "stale": true}}, "dex_pools_matched": 2},
+    {"pool": "v3", "project": "compound-v3", "chain": "Ethereum", "symbol": "USDC", "tvlUsd": 50000000, "apyBase": 4.2, "apy": 4.2, "basis": "initial", "normalized_score": 60.0, "final_safety_score": 60.0, "grade": "Aggressive", "factors": {"contract_token_safety": {"points": 0.0}, "depeg": 0, "vault_tvl": 15, "pool_liquidity": 18, "dynamic": {"points": 0, "stale": true}}, "dex_pools_matched": 1},
+    {"pool": "v5", "project": "moonwell", "chain": "Base", "symbol": "USDC", "tvlUsd": 30000000, "apyBase": 7.0, "apy": 7.0, "basis": "initial", "normalized_score": 50.0, "final_safety_score": 50.0, "grade": "Aggressive", "factors": {"contract_token_safety": {"points": 0.0}, "depeg": 0, "vault_tvl": 10, "pool_liquidity": 15, "dynamic": {"points": 0, "stale": true}}, "dex_pools_matched": 1},
+    {"pool": "v4", "project": "kamino", "chain": "Solana", "symbol": "USDC", "tvlUsd": 9000000, "apyBase": 8.0, "apy": 8.0, "basis": "initial", "normalized_score": 36.36, "final_safety_score": 36.36, "grade": "High Risk", "factors": {"contract_token_safety": {"points": 0.0}, "depeg": 0, "vault_tvl": 5, "pool_liquidity": 0, "dynamic": {"points": 0, "stale": true}}, "dex_pools_matched": 0}
+  ]
+}

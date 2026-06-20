@@ -1,0 +1,15 @@
+{
+  "_doc": "Vault filter: only single-token vaults pass, and only when the token is a USD stable (ALL_USD_STABLES expands interim from the Yields stablecoin flag); two-token pairs and vaults with 3+ tokens are excluded; then min_tvl_usd applies. exclude_memecoins is a documented no-op. exploits: when enabled, DeFiLlama hacks are joined per protocol (brand_wide = any version under the same parent is counted) and merged as a top-level exploits block; the -15xN penalty is applied later in the score skill, not here. audit_triage: when enabled, each protocol's free DeFiLlama audits code (0=none/1=partial/2=audited/3=fork) is merged as a top-level audit_triage block from the same /protocols fetch; quality verification/grading is the separate research-audit skill.",
+  "filters": {
+    "tokens": { "groups": ["ALL_USD_STABLES"] },
+    "min_tvl_usd": 1000000,
+    "exclude_memecoins": true,
+    "evm_only": true,
+    "non_evm_chains": ["Solana", "Tron", "Sui", "Aptos", "TON", "Stacks",
+                       "Cardano", "Noble", "Osmosis", "Algorand",
+                       "Bifrost Network", "Echelon Initia"]
+  },
+  "sort": { "by": "apyBase", "desc": true },
+  "exploits": { "enabled": true, "version_propagation": "brand_wide" },
+  "audit_triage": { "enabled": true }
+}

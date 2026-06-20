@@ -1,0 +1,14 @@
+{
+  "source": "geckoterminal",
+  "fetched_at": "2026-06-15T00:00:00Z",
+  "history_window_days": 180,
+  "minute_window_hours": 12,
+  "counts": {"targets": 1, "daily_ok": 1, "minute_ok": 1},
+  "by_pool": {
+    "ethereum|0x1111111111111111111111111111111111111111|0xusdc": {
+      "chain": "ethereum", "pool_address": "0x1111111111111111111111111111111111111111", "token_address": "0xusdc",
+      "ohlcv_daily": [[1780963200, 1.0, 1.0, 0.999, 1.0, 1.0]],
+      "ohlcv_minute": [[1781049540, 1.0, 1.0, 0.999, 1.0, 1.0]]
+    }
+  }
+}
